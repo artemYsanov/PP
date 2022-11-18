@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.practic3.registrationController">
+    <children>
+        <AnchorPane layoutY="75.0" prefHeight="325.0" prefWidth="700.0" style="-fx-background-color: #FAFAFA;">
+            <children>
+                <TextField fx:id="LoginRegistration" layoutX="54.0" layoutY="102.0" prefHeight="32.0" prefWidth="230.0" promptText="Логин" />
+                <Button fx:id="EntranceRegistration" layoutX="203.0" layoutY="239.0" mnemonicParsing="false" style="-fx-background-color: #F39C63;" text="Войти" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <TextField fx:id="NameRegistration" layoutX="54.0" layoutY="46.0" prefHeight="32.0" prefWidth="230.0" promptText="Имя" />
+            <TextField fx:id="LastNameRegistration" layoutX="405.0" layoutY="46.0" prefHeight="32.0" prefWidth="230.0" promptText="Фамилия" />
+            <CheckBox fx:id="CheckBoxMenRegistration" layoutX="284.0" layoutY="169.0" mnemonicParsing="false" selected="true" text="Муж" />
+            <CheckBox fx:id="CheckBoxRegistration" layoutX="360.0" layoutY="169.0" mnemonicParsing="false" text="Жен" />
+            <Button fx:id="EntranceRegistration1" layoutX="360.0" layoutY="239.0" mnemonicParsing="false" style="-fx-background-color: #F39C63;" text="Зарегистрироваться" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <TextField fx:id="PasswordRegistration" layoutX="405.0" layoutY="102.0" prefHeight="32.0" prefWidth="230.0" promptText="Пароль" />
+            </children>
+        </AnchorPane>
+        <Text fill="WHITE" layoutX="247.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Регистрация">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>
