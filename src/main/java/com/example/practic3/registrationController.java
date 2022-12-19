@@ -48,9 +48,10 @@ public class registrationController {
     @FXML
     private TextField PasswordRegistration;
 
+
     @FXML
     void initialize() {
-        EntranceRegistration1.setOnAction(event -> {
+        EntranceRegistration1.setOnMouseClicked(click -> {
             try {
                 String line = (PasswordRegistration.getText());
                 FileOutputStream fileOutputStream = new FileOutputStream("C:\\Users\\Artem\\IdeaProjects\\Practic3\\src\\main\\java\\com\\example\\practic3\\inputPassword.txt");
